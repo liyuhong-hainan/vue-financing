@@ -52,3 +52,11 @@ vue 实现的一款智能理财问答对话。
 >> assets               // 图片资源
 
 >> common          	    // 公共的css js images资源
+
+>> pages          		// 各个视图
+
+>> App.vue         	// 主页面
+
+>> router.js     		// 路由配置器
+
+>>  main.js       	    // Webpack 预编译入口
