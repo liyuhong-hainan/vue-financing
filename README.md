@@ -25,3 +25,15 @@ vue 实现的一款智能理财问答对话。
 ## 演示二维码
 
 ![](https://github.com/liyuhong-hainan/vue-financing/blob/master/src/assets/qrcode.png)
+
+## 安装运行（安装运行前请确定已安装node环境）
+
+* 环境安装：npm install
+* 启动服务：npm run dev
+* 发布代码：npm run build
+* 代码检查：npm run lint
+
+## 项目构成
+
+> build    // 构建服务和webpack配置
+> config   // 项目不同环境的配置
