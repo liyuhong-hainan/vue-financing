@@ -2,6 +2,8 @@
 
 vue 实现的一款智能理财问答对话。
 
+[源码地址](https://github.com/liyuhong-hainan/vue-financing)
+
 ## 技术栈
 
 1. Vue2：采用最新Vue2的语法
