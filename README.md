@@ -35,6 +35,20 @@ vue 实现的一款智能理财问答对话。
 
 ## 项目构成
 
-> build    // 构建服务和webpack配置
+> build                // 构建服务和webpack配置
 
-> config   // 项目不同环境的配置
+> config               // 项目不同环境的配置
+
+> dist                  // 项目build目
+
+> index.html          	 // 项目入口文件
+
+> package.json      		 // 项目配置文件
+
+> static       			     // 放置静态资源
+
+> src                		 // 生产目录
+
+>> assets               // 图片资源
+
+>> common          	    // 公共的css js images资源
