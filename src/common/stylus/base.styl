@@ -1,0 +1,36 @@
+body.html
+  line-height: 1
+  font-weight: 200
+  font-family: 'PingFang SC','STHeitiSC-Light','Helvetica-Light',arial,sans-serif
+
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: '.'
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+purpleBg = rgb(96, 95, 164)
+purpleColor = rgb(96, 95, 164)
+whiteColor = #FFFFFF
+themeColor1 = #263C4E
+themeColor2 = #5E6A77
+themeColor3 = #949CA2
+themeColor4 = #CED1DC
+lineColor = rgba(225, 231, 238, 0.5)
+goldColor = #A28D61
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-1px
+    &::after
+      -webkit-transform: scaleY(0.7)
+      transform: scaleY(0.7)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::after
+      -webkit-transform: scaleY(0.5)
+      transform: scaleY(0.5)
