@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>在意财富</title>
+  <meta  name="shareDescription" content="在意财富专注于分享个人财富管理知识、全球投资经验和投资机会，由国际顶级财富管理专家和投资精英组建。一经推出便获得投资人和用户一致好评，将很快成为个人财富管理领域一线产品。在意财富，有你在学校里学不到的个人财富管理知识，有你最值得信赖的专业投资建议，还有精选的全球投资机会，全程本地服务，让你的地产投资更简单、更省心。"/>
+  <meta  name="shareTitle" content="在意财富专注于分享个人财富管理知识、全球投资经验和投资机会，由国际顶级财富管理专家和投资精英组建..."/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+  <script>
+    (function () {
+      window.zhuge = window.zhuge || [];
+      window.zhuge.methods = "_init identify track getDid getSid getKey setSuperProperty setUserProperties setPlatform".split(" ");
+      window.zhuge.factory = function (b) {
+        return function () {
+          var a = Array.prototype.slice.call(arguments);
+          a.unshift(b);
+          window.zhuge.push(a);
+          return window.zhuge;
+        }
+      };
+      for (var i = 0; i < window.zhuge.methods.length; i++) {
+        var key = window.zhuge.methods[i];
+        window.zhuge[key] = window.zhuge.factory(key);
+      }
+      window.zhuge.load = function (b, x) {
+        if (!document.getElementById("zhuge-js")) {
+          var a = document.createElement("script");
+          var verDate = new Date();
+          var verStr = verDate.getFullYear().toString() + verDate.getMonth().toString() + verDate.getDate().toString();
+
+          a.type = "text/javascript";
+          a.id = "zhuge-js";
+          a.async = !0;
+          a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=" : 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+          a.onerror = function () {
+            window.zhuge.identify = window.zhuge.track = function (ename, props, callback) {
+              if (callback && Object.prototype.toString.call(callback) === '[object Function]') callback();
+            };
+          };
+          var c = document.getElementsByTagName("script")[0];
+          c.parentNode.insertBefore(a, c);
+          window.zhuge._init(b, x)
+        }
+      };
+      window.zhuge.load('851a87e380f540708f18ec61feb2c93b', {//正式：851a87e380f540708f18ec61feb2c93b
+        superProperty: { //全局的事件属性(选填)
+          '应用名称': '诸葛io'
+        },
+        autoTrack: true,
+        //启用全埋点采集（选填，默认false）
+        singlePage: true,//是否是单页面应用（SPA），启用autoTrack后生效（选填，默认false）
+        visualizer: true,
+        debug: true
+      });
+    })();
+  </script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
