@@ -16,3 +16,12 @@ vue 实现的一款智能理财问答对话。
 
 6. CSS3：CSS3动画及样式
 
+7. better-scroll: 滑动事件的插件
+
+## 示例图
+
+![](https://github.com/liyuhong-hainan/vue-financing/blob/master/src/assets/demo.gif)
+
+## 演示二维码
+
+![](https://github.com/liyuhong-hainan/vue-financing/blob/master/src/assets/qrcode.png)
